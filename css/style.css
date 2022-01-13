@@ -1,0 +1,104 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 53px;
+    padding-bottom: 34px;
+}
+
+.header_nav-list{
+    list-style: none;
+    text-align: center;
+}
+
+.header_nav-item{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header_nav-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+    padding: 5px 40px;
+}
+
+.header_nav-link.active,
+.header_nav-link:hover{
+    color: #03a9f4; 
+}
+
+.posts{
+    width: 100%;
+    max-width:1200px;
+    text-align: center;
+}
+
+.post_block{
+    display: inline-block;
+    padding: 84px 30px 53px 30px;
+    width: 480px;
+}
+
+.post_img{
+    width: 420px;
+    height: 281px;
+    text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+}
+
+.post_sing{
+    color: #b4ad9e;
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Ubuntu';
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.post_title{
+    color: #626262;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Playfair Display';
+    margin-bottom: 39px;
+}
+
+.post_desk{
+    color: #626262;
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Playfair Display';
+}
+
+.btn_wrap{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.btn{
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    color: #626262;
+    display: inline-block;
+    padding: 22px 34px;
+    border: 1px solid black;
+}
+
+.btn:hover{
+    background-color: #1C4E1C;
+}
